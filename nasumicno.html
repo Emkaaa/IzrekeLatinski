@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Izreke</title>
+    <link rel="stylesheet" href="nasumicno.css">
 </head>
 <body>
-    Ovo je nasumicno page.
+
+
+    <!-- text area -->
+    
+    
+<div class="randtxt">
+    <div id="randlatdiv">  
+    IZREKA : <span  id="randlattxt"><span><br>
+    </div>
+    <div id="randhintdiv">
+    HINT : <span  id="randhinttxt"></span><br>
+    </div>
+    <div id="randbosdiv">
+    PRIJEVOD : <span  id="randbostxt"></span>
+    </div><br><br>
+</div>
+    
+    <!-- buttons -->
+    <div id="randbtn">
+        <button onclick="newQuote()" class="randbtn" id="randlatbtn">NOVA IZREKA</button><br>
+        <button onclick="showHint()" class="randbtn" id="randhintbtn">HINT</button><br>    
+        <button onclick="showBosnian()" class="randbtn" id="randbosbtn">PRIJEVOD</button>
+    </div>
+
+
+    <script src="nasumicno.js"></script>
 </body>
 </html>
+
+
