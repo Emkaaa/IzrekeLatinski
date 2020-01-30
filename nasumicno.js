@@ -13,7 +13,7 @@ let niz = [
     
     { bs: "Što je trijeznom na srcu, to je pijanom na jeziku.", 
     lat: "Quod in corde sobrii, id in lingua ebrii.", 
-    hint1: "Prevod 2" },
+    hint1: "Trijezan,srce,jezik" },
     
     { bs: "Neznanje je majka drskosti.",
     lat: "Inscitia mater arrogantiae",
