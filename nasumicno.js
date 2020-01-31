@@ -1,51 +1,60 @@
 let hintButton = document.getElementById("randhintbtn");
 let hintText = document.getElementById("randhinttxt");
-let latinButton = document.getElementById("randlatbtn");
-let latinText = document.getElementById("randlattxt");
-let bosnianButton = document.getElementById("randbosbtn");
-let bosnianText = document.getElementById("randbostxt");
+let quoteButton = document.getElementById("randquobtn");
+let quoteText = document.getElementById("randquotxt");
+let translateButton = document.getElementById("randtranbtn");
+let translateText = document.getElementById("randtrantxt");
+let language = document.getElementById("randlanglist").value;
 let currentIndex;
+
+function getLanguage()
+{   language = document.getElementById("randlanglist").value;
+    console.log(language);
+    quoteText.style.visibility = "hidden"; 
+    hintText.style.visibility = "hidden";
+    translateText.style.visibility = "hidden";
+}
 
 let niz = [
     {bs: "Teorija bez prakse je isto što i točak bez osovine.", 
     lat: "Theoria sine praxi sicut rota sine axi.", 
-    hint1: "Teorija,tocak,praksa" },
+    hint1: "Teorija,prakse,tocak.", 
+    hint2: "Theorija,praxi,rota."},
     
     { bs: "Što je trijeznom na srcu, to je pijanom na jeziku.", 
     lat: "Quod in corde sobrii, id in lingua ebrii.", 
-    hint1: "Trijezan,srce,jezik" },
-    
-    { bs: "Neznanje je majka drskosti.",
-    lat: "Inscitia mater arrogantiae.",
-    hint1: "Neznanje,drskosti" },
-
-
-    {bs: "Slogom rastu male stvari, neslogom se najveće raspadaju.",
-    lat: "Concordia parvae res crescunt, discordia maximae dilabuntur.",
-    hint1: "Sloga,male stvari,najveće"}
-
+    hint1: "Trijeznom,srcu,jeziku.",
+    hint2: "Quod,corde,lingua." }
 ];
   
 function newQuote() {
         
 currentIndex = Math.floor(Math.random() * niz.length);
 
-latinText.innerHTML = niz[currentIndex].lat;
-hintText.innerHTML = niz[currentIndex].hint1;
-bosnianText.innerHTML = niz[currentIndex].bs;
 
+
+if (language == "BtoL")
+    {hintText.innerHTML = niz[currentIndex].hint2;
+    translateText.innerHTML = niz[currentIndex].lat;
+    quoteText.innerHTML = niz[currentIndex].bs;}
+
+    if (language == "LtoB")
+    {quoteText.innerHTML = niz[currentIndex].lat;
+    hintText.innerHTML = niz[currentIndex].hint1;
+    translateText.innerHTML = niz[currentIndex].bs;}
+
+quoteText.style.visibility = "visible";
 hintText.style.visibility = "hidden";
-bosnianText.style.visibility = "hidden";
+translateText.style.visibility = "hidden";
 
-latinButton.disabled = false;
-bosnianButton.disabled = false;
+quoteButton.disabled = false;
+translateButton.disabled = false;
 }
 
 function showHint() {
     hintText.style.visibility = "visible";}
 
-function showBosnian() {
-    bosnianText.style.visibility = "visible";}
+function showtranslate() {
+    translateText.style.visibility = "visible";}
 
-function showLatin()
-{;}
+
