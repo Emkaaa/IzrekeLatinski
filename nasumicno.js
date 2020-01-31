@@ -16,7 +16,7 @@ let niz = [
     hint1: "Trijezan,srce,jezik" },
     
     { bs: "Neznanje je majka drskosti.",
-    lat: "Inscitia mater arrogantiae",
+    lat: "Inscitia mater arrogantiae.",
     hint1: "Neznanje,drskosti" },
 
 

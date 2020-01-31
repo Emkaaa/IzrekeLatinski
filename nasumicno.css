@@ -11,7 +11,7 @@
 
 body
 {
-   background-image: url("background.jpg");
+   background-color: #1289A7;
    height: 100vh;
    background-attachment: fixed;
    background-size: cover;
@@ -30,7 +30,7 @@ margin-left: 10%;
 width: 80%;
 margin-right: 10%;
 margin-top: 1rem;
-border-style: solid;
+border-style: outset;
 border-color: white;
 border-width: 4px;
 color: white;
@@ -54,3 +54,11 @@ font-weight: bolder;}
 #randbosdiv{margin-top: 1rem;
     font-family: 'Segoe UI';
     font-weight: bolder;}
+
+#randtxt
+{   padding: 5px;
+    border-style: outset;
+    border-color: white;
+    border-width: 1px;  
+    height: 50%;   
+}
