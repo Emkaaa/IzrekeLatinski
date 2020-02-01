@@ -318,12 +318,12 @@ animation-name: bounce-in-bottom;
 .changerbtn
 {
 color: white;
-background-color: #b33939;
+background-color: transparent;
 border-style: solid;
-border-color: #b33939;
+border-color: transparent;
 margin-top: 1rem;
 width: 20%;
-height: 3rem;
+height: 6rem;
 font-weight: 500;
 font-size: 18px;
 font-family: 'Segoe UI';
@@ -334,6 +334,11 @@ font-family: 'Segoe UI';
 {
 animation-duration: 2s;
 animation-name: bounce-in-right;
+background-image: url("arrow_right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 #redprevbtn
@@ -341,5 +346,10 @@ animation-name: bounce-in-right;
 animation-duration: 2s;
 animation-name: bounce-in-left;       
   margin-right: 58%;
+  background-image: url("arrow_left.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
 }
 
