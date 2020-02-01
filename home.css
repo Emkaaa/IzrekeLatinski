@@ -10,6 +10,51 @@
       opacity: 1;
     }
   }
+
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+ 
+  @keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(500px);
+              transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
   
   @keyframes text-flicker-in-glow {
         0% {
@@ -358,6 +403,16 @@ body
 
 #homebuttons
 {       
-        width: 100%;
-        align-content: center;
+  width: 100%;
+  align-content: center;
+}
+
+#credits
+{
+  text-align: center;
+  font-family: 'Segoe UI';
+  color: white;
+  margin-top: 4rem;
+  animation-name: tracking-in-expand-fwd-bottom;
+  animation-duration: 4s;
 }
