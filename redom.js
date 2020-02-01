@@ -148,10 +148,6 @@ let niz = [
     hint1:"",
     hint2:""
     }
-
-
-
-
 ];
 
 let nizlength = niz.length-1;
@@ -160,7 +156,7 @@ function nextQuote() {
         
     currentIndex = currentIndex + 1;
 
-    if(currentIndex == nizlength+1)
+    if(currentIndex == nizlength)
     {currentIndex=0;}
 
     currentQuote.innerHTML = currentIndex + 1;
