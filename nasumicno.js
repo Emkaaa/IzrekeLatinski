@@ -141,7 +141,7 @@ let niz = [
     hint1:"",
     hint2:""
     },
-    {bs:"",
+    {bs:"Greška u govoru. Greška u pisanju. Greška u razmišljanju. Greška u pamćenju. ",
     lat:"Lapsus linguae. Lapsus calami. Lapsus mentis. Lapsus memoriae. ",
     hint1:"",
     hint2:""
