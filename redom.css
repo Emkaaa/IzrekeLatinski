@@ -155,6 +155,59 @@
               animation-timing-function: ease-out;
     }
   }
+
+  @keyframes bounce-in-bottom {
+        0% {
+          -webkit-transform: translateY(500px);
+                  transform: translateY(500px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 0;
+        }
+        38% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+        55% {
+          -webkit-transform: translateY(65px);
+                  transform: translateY(65px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        72% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        81% {
+          -webkit-transform: translateY(28px);
+                  transform: translateY(28px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        90% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        95% {
+          -webkit-transform: translateY(8px);
+                  transform: translateY(8px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+      }
   
 #redhinttxt
 {
@@ -169,9 +222,8 @@
 body
 {
    background-color: #ff5252;
-   height: 100vh;
    background-attachment: fixed;
-   background-size: cover;
+   background-size: 100%;
    background-position-x: center;
    background-position-y: center;
    color:white;
@@ -246,45 +298,48 @@ background-color: #b33939;
 color: white;
 font-weight: 500;
 text-align: center;
-animation-duration: 2s;
-animation-name: bounce-in-right; 
+animation-duration: 4s;
+animation-name: bounce-in-bottom; 
+
 }
+
 
 #redhintbtn
 {
   animation-duration: 2s;
-  animation-name: bounce-in-right;  
+  animation-name: bounce-in-bottom;  
 }
 
 #redtranbtn
-{ animation-duration: 2s;
-    animation-name: bounce-in-left; }
+{ animation-duration: 3s;
+    animation-name: bounce-in-bottom; }
+
+
+.changerbtn
+{
+color: white;
+background-color: #b33939;
+border-style: solid;
+border-color: #b33939;
+margin-top: 1rem;
+width: 20%;
+height: 3rem;
+font-weight: 500;
+font-size: 18px;
+font-family: 'Segoe UI';
+}
+
 
 #rednextbtn
 {
-    animation-duration: 2s;
-    animation-name: bounce-in-right;
-    margin-right: 10%;
-    width: 25%;
+animation-duration: 2s;
+animation-name: bounce-in-right;
 }
 
 #redprevbtn
-{   
-    width: 25%;
-    margin-left: 10%;
-    margin-right: 0%;
-    animation-duration: 2s;
-    animation-name: bounce-in-left;   
+{  
+animation-duration: 2s;
+animation-name: bounce-in-left;       
+  margin-right: 58%;
 }
 
-#rednum
-{text-align: center;
-margin-left: 5%;
-margin-right: 5%;
-width: 20%;
-margin-right: 5%;
-vertical-align: center;
-text-align: center;
-
-margin-left: 5%;
-}
