@@ -17,6 +17,7 @@ function getLanguage()
     translateText.style.visibility = "hidden";
     hintButton.disabled = true;
     translateButton.disabled = true;
+    currentQuote.style.visibility = "hidden";
 }
 
 let niz = [
@@ -156,7 +157,7 @@ function nextQuote() {
         
     currentIndex = currentIndex + 1;
 
-    if(currentIndex == nizlength)
+    if(currentIndex == nizlength+1)
     {currentIndex=0;}
 
     currentQuote.innerHTML = currentIndex + 1;
@@ -172,6 +173,7 @@ if (language == "BtoL")
     translateText.innerHTML = niz[currentIndex].bs;}
 
     quoteText.style.visibility = "visible";
+    currentQuote.style.visibility = "visible";
     hintText.style.visibility = "hidden";
     translateText.style.visibility = "hidden";
 
@@ -186,9 +188,9 @@ function prevQuote() {
     currentIndex = currentIndex - 1;
 
     if(currentIndex == -1)
-    {currentIndex=nizlength-1;}
+    {currentIndex=nizlength;}
 
-    currentQuote.innerHTML = currentIndex + 1;
+    currentQuote.innerHTML = currentIndex+1;
 
 if (language == "BtoL")
     {hintText.innerHTML = niz[currentIndex].hint2;
@@ -201,6 +203,7 @@ if (language == "BtoL")
     translateText.innerHTML = niz[currentIndex].bs;}
 
     quoteText.style.visibility = "visible";
+    currentQuote.style.visibility = "visible";
     hintText.style.visibility = "hidden";
     translateText.style.visibility = "hidden";
 
