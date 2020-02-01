@@ -1,3 +1,161 @@
+@keyframes bounce-in-left {
+    0% {
+      -webkit-transform: translateX(-600px);
+              transform: translateX(-600px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateX(-68px);
+              transform: translateX(-68px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateX(-28px);
+              transform: translateX(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+@keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+@keyframes bounce-in-right {
+    0% {
+      -webkit-transform: translateX(600px);
+              transform: translateX(600px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateX(68px);
+              transform: translateX(68px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateX(32px);
+              transform: translateX(32px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
 #randhinttxt
 {
     visibility: hidden;
@@ -10,7 +168,7 @@
 
 body
 {
-   background-color: #1289A7;
+   background-color: #ff5252;
    height: 100vh;
    background-attachment: fixed;
    background-size: cover;
@@ -29,14 +187,13 @@ margin-left: 10%;
 width: 80%;
 margin-right: 10%;
 margin-top: 1rem;
-border-style: outset;
-border-color: white;
+border-style: solid;
+border-color: #b33939;
 border-width: 4px;
 color: white;
 font-weight: 500;
-border-radius: 15px;
 height: 3rem;
-background-color: transparent;
+background-color: #b33939;
 }
 
 #randhintdiv{
@@ -56,10 +213,13 @@ font-weight: bolder;}
 
 #randtxt
 {   padding: 5px;
-    border-style: outset;
-    border-color: white;
-    border-width: 1px;  
-    height: 50%;   
+    border-style: solid;
+    border-color: #b33939;
+    border-width: 3px;   
+    margin-top: 4px;  
+    animation-name: bounce-in-top;
+    animation-duration: 1s;
+
 }
 
 #randlang
@@ -69,11 +229,10 @@ font-weight: bolder;}
     margin-right: 10%;
     width: 80%;
     text-align: center;
-    border-style: outset;
-    border-color: white;
-    border-width: 4px;
+    border-style: solid;
+    border-color: #b33939;
+    border-width: 0px;
     color: white;
-    border-radius: 15px;
 }
 
 
@@ -82,15 +241,24 @@ font-weight: bolder;}
 height: 3rem;
 font-family: 'Segoe UI';
 font-size: 18px;
-background-color: transparent;
-color: black;
+background-color: #b33939;
+color: white;
 font-weight: 500;
 text-align: center;
+animation-duration: 2s;
+animation-name: bounce-in-right; 
 }
 
-#randlangopt
-{   
-    
-    color: black;
-    text-align: center;
+#randhintbtn
+{
+  animation-duration: 2s;
+  animation-name: bounce-in-right;  
 }
+#randquobtn
+{
+    animation-duration: 2s;
+    animation-name: bounce-in-left; 
+}
+#randtranbtn
+{ animation-duration: 2s;
+    animation-name: bounce-in-left; }

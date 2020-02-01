@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Izreke</title>
+    <link rel="stylesheet" href="redom.css">
 </head>
 <body>
-Ovo je redom page.
+
+
+    <!-- text area -->
+    
+    
+<div id="redtxt">
+    <div id="redquodiv">  
+    IZREKA : <span  id="redquotxt"><span><br>
+    </div>
+    <div id="redhintdiv">
+    HINT : <span  id="redhinttxt"></span><br>
+    </div>
+    <div id="redtrediv">
+    PRIJEVOD : <span  id="redtrantxt"></span>
+    </div><br><br>
+</div>
+    
+    <!-- buttons -->
+    <div id="redbtn">
+        <button onclick="prevQuote()" class="redbtn" id="redprevbtn">PREV</button>
+        <span class="redbtn" id="rednum"></span>
+        <button onclick="nextQuote()" class="redbtn" id="rednextbtn">NEXT</button>
+        <button onclick="showHint()" class="redbtn" id="redhintbtn">HINT</button><br>    
+        <button onclick="showTranslate()" class="redbtn" id="redtranbtn">PRIJEVOD</button>
+    
+    
+    </div>
+
+
+
+<div id="redlang">
+    <select id="redlanglist" onchange="getLanguage()">
+        <option class="redlangopt" value="BtoL">sa BOSANSKOG na LATINSKI</option>
+        <option class="redlangopt" value="LtoB">sa LATINSKOG na BOSANSKI</option>
+        </select>
+    </div>
+
+
+
+
+
+    <script src="redom.js"></script>
 </body>
 </html>
+
+

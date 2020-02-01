@@ -13,6 +13,8 @@ function getLanguage()
     quoteText.style.visibility = "hidden"; 
     hintText.style.visibility = "hidden";
     translateText.style.visibility = "hidden";
+    hintButton.disabled = true;
+    translateButton.disabled = true;
 }
 
 let niz = [
@@ -43,18 +45,19 @@ if (language == "BtoL")
     hintText.innerHTML = niz[currentIndex].hint1;
     translateText.innerHTML = niz[currentIndex].bs;}
 
-quoteText.style.visibility = "visible";
-hintText.style.visibility = "hidden";
-translateText.style.visibility = "hidden";
+    quoteText.style.visibility = "visible";
+    hintText.style.visibility = "hidden";
+    translateText.style.visibility = "hidden";
 
-quoteButton.disabled = false;
-translateButton.disabled = false;
+    quoteButton.disabled = false;
+    translateButton.disabled = false;
+    hintButton.disabled = false;
 }
 
 function showHint() {
     hintText.style.visibility = "visible";}
 
-function showtranslate() {
+function showTranslate() {
     translateText.style.visibility = "visible";}
 
 
