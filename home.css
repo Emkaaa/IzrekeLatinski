@@ -367,12 +367,18 @@
 body
 {
    background-color: #ff5252;
+   
    height: 100vh;
    background-attachment: fixed;
    background-size: cover;
    background-position-x: center;
    background-position-y: center;
+   max-width: 1000px;
+   margin: 0 auto;
 }
+
+
+
 #redom
 {
     margin-top: 4rem; 
@@ -401,10 +407,15 @@ body
 }
 
 
+@media screen and (min-width: 518px) {
+  .button {
+    width: 35%;
+  }
+}
+
 #homebuttons
 {       
   width: 100%;
-  align-content: center;
 }
 
 #credits
@@ -412,7 +423,7 @@ body
   text-align: center;
   font-family: 'Segoe UI';
   color: white;
-  margin-top: 4rem;
+  margin-top: 2rem;
   animation-name: tracking-in-expand-fwd-bottom;
   animation-duration: 4s;
 }
