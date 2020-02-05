@@ -227,9 +227,23 @@ body
    background-position-x: center;
    background-position-y: center;
    color:white;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 3px;
 
 }
 
+@media screen and (min-width: 800px) {
+.redbtn {
+width: 20%;
+margin-left: 5%;
+margin-right: 0%;
+}
+body
+{
+ margin-top: 10%;
+}
+}
 
 .redbtn
 {

@@ -175,6 +175,9 @@ body
    background-position-x: center;
    background-position-y: center;
    color:white;
+   max-width: 1000px;
+   margin: 0 auto;
+
 
 }
 
@@ -195,6 +198,25 @@ font-weight: 500;
 height: 3rem;
 background-color: #b33939;
 }
+
+@media screen and (min-width: 800px) {
+        .randbtn {
+          width: 20%;
+          margin-left: 5%;
+          margin-right: 0%;
+
+        }
+        #randlang
+        {       width: 20%;
+                margin-left: 5%;
+                margin-right: 0%;   
+        }
+
+        body
+        {
+                margin-top: 10%;
+        }
+      }
 
 #randhintdiv{
 margin-top: 1rem;
@@ -222,22 +244,16 @@ font-weight: bolder;}
 
 }
 
+
 #randlang
 {
-    margin: 1rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    text-align: center;
-    border-style: solid;
-    border-color: #b33939;
-    border-width: 0px;
-    color: white;
-}
-
-
-#randlanglist
-{width: 100%;
+        
+border-style: solid;
+border-color: #b33939;
+border-width: 0px;
+margin-top: 1rem;
+margin-left: 10% ;
+width: 80%;
 height: 3rem;
 font-family: 'Segoe UI';
 font-size: 18px;

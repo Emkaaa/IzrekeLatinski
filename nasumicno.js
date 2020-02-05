@@ -4,11 +4,11 @@ let quoteButton = document.getElementById("randquobtn");
 let quoteText = document.getElementById("randquotxt");
 let translateButton = document.getElementById("randtranbtn");
 let translateText = document.getElementById("randtrantxt");
-let language = document.getElementById("randlanglist").value;
+let language = document.getElementById("randlang").value;
 let currentIndex;
 
 function getLanguage()
-{   language = document.getElementById("randlanglist").value;
+{   language = document.getElementById("randlang").value;
     console.log(language);
     quoteText.style.visibility = "hidden"; 
     hintText.style.visibility = "hidden";
@@ -132,7 +132,7 @@ let niz = [
     hint2:""
     },
     {bs:"Slično se sličnim liječi.",
-    lat:"Similia similibus curantur",
+    lat:"Similia similibus curantur.",
     hint1:"",
     hint2:""
     },

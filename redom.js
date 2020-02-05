@@ -135,7 +135,7 @@ let niz = [
     hint2:""
     },
     {bs:"Slično se sličnim liječi.",
-    lat:"Similia similibus curantur",
+    lat:"Similia similibus curantur.",
     hint1:"",
     hint2:""
     },

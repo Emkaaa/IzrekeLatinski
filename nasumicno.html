@@ -27,19 +27,17 @@
     
     <!-- buttons -->
     <div id="randbtn">
-        <button onclick="newQuote()" class="randbtn" id="randquobtn">NOVA IZREKA</button><br>
-        <button onclick="showHint()" class="randbtn" id="randhintbtn">HINT</button><br>    
+        <button onclick="newQuote()" class="randbtn" id="randquobtn">NOVA IZREKA</button>
+        <button onclick="showHint()" class="randbtn" id="randhintbtn">HINT</button> 
         <button onclick="showTranslate()" class="randbtn" id="randtranbtn">PRIJEVOD</button>
     </div>
 
 
 
-<div id="randlang">
-    <select id="randlanglist" onchange="getLanguage()">
+    <select id="randlang" onchange="getLanguage()">
         <option class="randlangopt" value="BtoL">sa BOSANSKOG na LATINSKI</option>
         <option class="randlangopt" value="LtoB">sa LATINSKOG na BOSANSKI</option>
         </select>
-    </div>
 
 
 
