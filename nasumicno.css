@@ -206,17 +206,19 @@ background-color: #b33939;
           margin-right: 0%;
 
         }
-        #randlang
+        body
+        {
+                margin-top: 10%;
+        }
+
+        .randlang
         {       width: 20%;
                 margin-left: 5%;
                 margin-right: 0%;   
         }
 
-        body
-        {
-                margin-top: 10%;
-        }
       }
+
 
 #randhintdiv{
 margin-top: 1rem;
@@ -244,10 +246,16 @@ font-weight: bolder;}
 
 }
 
+.randlang
+{
+        margin-top: 1rem;
+        width: 100%;
+        height: 3rem;   
+}
+
 
 #randlang
 {
-        
 border-style: solid;
 border-color: #b33939;
 border-width: 0px;
