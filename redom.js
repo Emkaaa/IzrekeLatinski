@@ -23,56 +23,56 @@ function getLanguage()
 let niz = [
     {bs: "Neispisana tablica.", 
     lat: "Tabula rasa.", 
-    hint1: "Ploča.", 
+    hint1: "Tablica.", 
     hint2: "Tabula."},
     
-    {bs: "Dok živim ( dišem ), nadam se.", 
+    {bs: "Dok živim (dišem), nadam se.", 
     lat: "Dum spiro, spero.", 
-    hint1: "Živim,nadam",
-    hint2: "Dum,spero." },
+    hint1: "Živim, nadam",
+    hint2: "Dum, spero." },
 
     {bs:"Ne možemo svi sve.",
     lat:"Non omnia possumus omnes.",
-    hint1:"Možemo,svi.",
-    hint2:"Omnia,possumus."
+    hint1:"Možemo, svi.",
+    hint2:"Omnia, possumus."
     },
 
-    {bs:"Ako dvoje rade isto, to ( više ) nije isto.",
+    {bs:"Ako dvoje rade isto, to (više) nije isto.",
     lat:"Si duo faciunt idem, non est idem.",
-    hint1:"",
-    hint2:""
+    hint1:"Dvoje, isto, nije.",
+    hint2:"Fasciunt, non, idem."
     },
 
     {bs:"Kako posiješ, tako ćeš i žnjeti.",
     lat:"Ut sementem feceris, ita metes.",
-    hint1:"",
-    hint2:""
+    hint1:"Posiješ, tako, žnjeti.",
+    hint2:"Sementem, metes."
     },
     {bs:"Čovjek sam, ništa ljudsko nije mi strano.",
     lat:"Homo sum: humani nihil a me alienum puto.",
-    hint1:"",
-    hint2:""
+    hint1:"Čovjek, ljudsko, strano.",
+    hint2:"Homo, nihil, alienum."
     },
     {bs:"Najveće poštovanje duguje se djetetu.",
     lat:"Maxima reverentia, puero debetur.",
-    hint1:"",
-    hint2:""
+    hint1:"Najveće, duguje.",
+    hint2:"Maxima, debetur."
     },
     {bs:"Umjetnost je vječna, život je kratak.",
     lat:"Ars longa, vita brevis.",
-    hint1:"",
-    hint2:""
+    hint1:"Umjetnost, život.",
+    hint2:"Ars, vita."
     },
     {bs:"Mudrac sve svoje sa sobom nosi.",
     lat:"Sapiens omnia sua secum portat.",
-    hint1:"",
-    hint2:""
+    hint1:"Mudrac, nosi.",
+    hint2:"Sapiens, portat."
     },
 
     {bs:"Riječi lete, ono što je napisano ostaje.",
     lat:"Verba volant scripta manent.",
-    hint1:"",
-    hint2:""
+    hint1:"Riječi, napisano.",
+    hint2:"Verba, scripta."
     },
     {bs:"Učiš ribu da pliva.",
     lat:"Piscem natare doces.",
