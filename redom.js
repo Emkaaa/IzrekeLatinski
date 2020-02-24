@@ -76,28 +76,28 @@ let niz = [
     },
     {bs:"Učiš ribu da pliva.",
     lat:"Piscem natare doces.",
-    hint1:"",
-    hint2:""
+    hint1:"Piscem, doces.",
+    hint2:"Ribu, učiš."
     },
     {bs:"Zatvori usta, otvori oči! (Ćuti i gledaj!)",
     lat:"Claude os, aperi oculos!",
-    hint1:"",
-    hint2:""
+    hint1:"Claude, aperi.",
+    hint2:"Usta, oči."
     },
     {bs:"Jedna lasta ne čini proljeće.",
     lat:"Una hirundo non facit ver.",
-    hint1:"",
-    hint2:""
+    hint1:"Hirundo, facit.",
+    hint2:"Lasta, proljeće."
     },
     {bs:"Zar i ti, sine Brute!",
-    lat:"Tu quoque, Brute, mi fili! ili Et tu mi fili!",
-    hint1:"",
-    hint2:""
+    lat:"Tu quoque, Brute, mi fili!",
+    hint1:"Queque, Brute.",
+    hint2:"Ti, Brute."
     },
     {bs:"Uslov bez koga je nešto nemoguće.",
     lat:"Condicio sine qua non.",
-    hint1:"",
-    hint2:""
+    hint1:"Condicio, non.",
+    hint2:"Uslov, nemoguće."
     },
     {bs:"Što škodi, često uči.",
     lat:"Quae nocent, saepe docent.",
