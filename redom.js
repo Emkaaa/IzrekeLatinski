@@ -92,7 +92,7 @@ let niz = [
     {bs:"Zar i ti, sine Brute!",
     lat:"Tu quoque, Brute, mi fili!",
     hint1:"Ti, Brute.",
-    hint2:"Queque, Brute."
+    hint2:"Quoque, Brute."
     },
     {bs:"Uslov bez koga je nešto nemoguće.",
     lat:"Condicio sine qua non.",
