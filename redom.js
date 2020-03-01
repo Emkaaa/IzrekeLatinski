@@ -149,158 +149,158 @@ let niz = [
     hint1:"",
     hint2:""
     },
-
+    //----------------------------------------------------------->25
     
     {bs:"Voli, da bi bio voljen!",
     lat:"Ut ameris, ama!",
-    hint1:"",
-    hint2:""
+    hint1:"Voli, voljen.",
+    hint2:"Ameris, ama."
     },
     
     {bs:"Od dva zla treba se odlučiti za manje.",
     lat:"Inter duo mala minus.",
-    hint1:"",
-    hint2:""
+    hint1:"Zla, manje.",
+    hint2:"Mala, minus."
     },
     
     {bs:"Dvaput daje ko brzo daje.",
     lat:"Bis dat qui cito dat.",
-    hint1:"",
-    hint2:""
+    hint1:"Dvaput, brzo.",
+    hint2:"Bis, cito."
     },
     
     {bs:"Što je plamen sjajniji, to se brže gasi.",
     lat:"Ignis quo clarior fulsit citius extinguitur.",
-    hint1:"",
-    hint2:""
+    hint1:"Plamen, sjajniji, gasi.",
+    hint2:"Ignis, "
     },
     
     {bs:"Što je trijeznom na srcu, to je pijanom na jeziku.",
     lat:"Quod in corde sobrii, id in lingua ebrii.",
-    hint1:"",
-    hint2:""
+    hint1:"Trijeznom, srcu, jeziku.",
+    hint2:"Corde, sobrii, lingua."
     },
     
-    {bs:"Odijelo ne čini čovjka.",
+    {bs:"Odijelo ne čini čovjeka.",
     lat:"Habitus non facit monachum.",
-    hint1:"",
-    hint2:""
+    hint1:"Odijelo, čovjeka.",
+    hint2:"Habitus, monachum."
     },
     
     {bs:"Prvi među jednakima.",
     lat:"Primus inter pares.",
-    hint1:"",
-    hint2:""
+    hint1:"Prvi, jednakima.",
+    hint2:"Primus, pares."
     },
     
     {bs:"O ukusima ne vrijedi raspravljati.",
     lat:"De gustibus non est disputandum.",
-    hint1:"",
-    hint2:""
+    hint1:"Ukusima, raspravljati.",
+    hint2:"Gustibus, disputandum."
     },
     
     {bs:"Prirodno nije sramotno.",
     lat:"Naturalia non sunt turpia.",
-    hint1:"",
-    hint2:""
+    hint1:"Prirodno, sramotno.",
+    hint2:"Naturalia, turpia."
     },
     
     {bs:"Odmah. Smjesta.",
     lat:"Ex tempore.",
-    hint1:"",
-    hint2:""
+    hint1:"Odmah.",
+    hint2:"Tempore."
     },
     
     {bs:"Koliko jezika znaš, toliko ljudi vrijediš.",
     lat:"Quot linguas calles, tot homines vales.",
-    hint1:"",
-    hint2:""
+    hint1:"Jezika, znaš, ljudi.",
+    hint2:"Linguas, calles, homines."
     },
     
     {bs:"Prvi u vremenu, preči u pravu.",
     lat:"Prior tempore, potior iure.",
-    hint1:"",
-    hint2:""
+    hint1:"Vremenu, pravu.",
+    hint2:"Tempore, iure."
     },
     
     {bs:"Željezo se kuje dok je vruće.",
     lat:"Cudendum est, dum ferrum in igne candet.",
-    hint1:"",
-    hint2:""
+    hint1:"Željezo, kuje, vruće.",
+    hint2:"Cudendum, ferrum, candet. "
     },
     
     {bs:"Nema medicine bez latinskog jezika.",
     lat:"Non est medicina sine lingua Latina.",
-    hint1:"",
-    hint2:""
+    hint1:"Medicine, latinskog.",
+    hint2:"Medicina, Latina."
     },
     
     {bs:"Rijetko su ljudi zadovoljnji svojom sudbinom.",
     lat:"Raro homines sorte sua contenti sunt.",
-    hint1:"",
-    hint2:""
+    hint1:"Rijetko, ljudi, sudbinom.",
+    hint2:"Raro, homines, contenti."
     },
-    
+
     {bs:"Znanje je moć.",
     lat:"Scientia est potentia.",
-    hint1:"",
-    hint2:""
+    hint1:"Znanje, moć.",
+    hint2:"Scientia, potentia."
     },
     
     {bs:"Neznanje je majka drskosti.",
     lat:"Inscitia mater arrogantiae.",
-    hint1:"",
-    hint2:""
+    hint1:"Neznanje, drskosti.",
+    hint2:"Inscitia, arrogantiae."
     },
     
     {bs:"Brada ne čini filozofa.",
     lat:"Barba philosophum non facit.",
-    hint1:"",
-    hint2:""
+    hint1:"Brada, filozofa.",
+    hint2:"Barba, philosophum."
     },
     
     {bs:"Učiteljevo je da podučava, a učenikovo da uči.",
     lat:"Magistri est docere discipuli discere.",
-    hint1:"",
-    hint2:""
+    hint1:"Učiteljevo, podučava, učenikovo.",
+    hint2:"Magistri, docere, discipuli."
     },
     
     {bs:"Ne učimo za školu, već za život.",
     lat:"Non scholae sed vitae discimus.",
-    hint1:"",
-    hint2:""
+    hint1:"Školu, učimo.",
+    hint2:"Scholae, discimus."
     },
     
     {bs:"Ljenjivcima uvijek odmori.",
     lat:"Ignavis semper feriae.",
-    hint1:"",
-    hint2:""
+    hint1:"Ljenjivcima, odmori.",
+    hint2:"Ignavis, feriae."
     },
     
     {bs:"Vjerni prijatelji su rijetki.",
     lat:"Amici fidi, rari.",
-    hint1:"",
-    hint2:""
+    hint1:"Amici, rari.",
+    hint2:"Prijatelji, rijetki."
     },
     
     {bs:"Bez prijateljstva život je nikakav.",
     lat:"Sine amicitia vita nulla est.",
-    hint1:"",
-    hint2:""
+    hint1:"Prijateljstva, život.",
+    hint2:"Amicitia, vita."
     },
     
     {bs:"O mrtvima samo dobro.",
     lat:"De mortuis nihil nisi bene.",
-    hint1:"",
-    hint2:""
+    hint1:"Mrtvima, dobro.",
+    hint2:"Mortuis, bene."
     },
     
     {bs:"Vrijeme rane liječi.",
     lat:"Tempus vulnera sanat.",
-    hint1:"",
-    hint2:""
+    hint1:"Vrijeme, liječi.",
+    hint2:"Tempus, sanat."
     },
-    
+    //----------------------------------------------------------->50
     {bs:"Teorija bez prakse je isto što i točak bez osovine.",
     lat:"Theoria sine praxi sicut rota sine axi.",
     hint1:"",
@@ -391,7 +391,7 @@ let niz = [
     hint1:"",
     hint2:""
     },
-    
+
     {bs:"Čovjek se poznaje po svom drugu. (Skim si, takav si.)",
     lat:"Ex socio cognoscitur vir.",
     hint1:"",
