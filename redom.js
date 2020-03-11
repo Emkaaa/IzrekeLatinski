@@ -130,28 +130,28 @@ let niz = [
     },
     {bs:"Nijedno pravilo bez izuzetka.",
     lat:"Nulla regula sine exceptione.",
-    hint1:"",
-    hint2:""
+    hint1:"Pravilo, izuzetka.",
+    hint2:"Regula, exceptione."
     },
     {bs:"Sretan će čas kucnuti kada mu se i ne nadamo.",
     lat:"Grata supervenit, quae non sperabitur hora.",
-    hint1:"",
-    hint2:""
+    hint1:"Sretan, kucnuti, nadamo.",
+    hint2:"Supervenit, sperabitur, hora."
     },
     {bs:"Slično se sličnim liječi.",
     lat:"Similia similibus curantur.",
-    hint1:"",
-    hint2:""
+    hint1:"Slično, liječi.",
+    hint2:"Similia, curantur."
     },
     {bs:"Najljepša stvar je pobijediti samoga sebe.",
     lat:"Se ipsum vincere, pulcherrima res est.",
-    hint1:"",
-    hint2:""
+    hint1:"Najljepša, pobijediti, sebe.",
+    hint2:"Ipsum, vincere, pulcherrima."
     },
     {bs:"Greška u govoru. Greška u pisanju. Greška u razmišljanju. Greška u pamćenju. ",
     lat:"Lapsus linguae. Lapsus calami. Lapsus mentis. Lapsus memoriae. ",
-    hint1:"",
-    hint2:""
+    hint1:"Govoru, pisanju, razmišljanju, pamćenju.",
+    hint2:"Linguae, calami, mentis, memoriae."
     },
     //----------------------------------------------------------->25
     
