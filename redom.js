@@ -9,22 +9,20 @@ let language = document.getElementById("redlanglist").value;
 let currentQuote = document.getElementById("quonum");
 let currentIndex = 0;
 
+
+
 function getLanguage()
-{   language = document.getElementById("redlanglist").value;
-    console.log(language);
-    quoteText.style.visibility = "hidden"; 
-    if (language == "LtoB")
-    {quoteText = niz[currentIndex].lat;}
-    else if (language == "BtoL")
-    {quoteText = niz[currentIndex].bs;}
-    
-    quoteText.style.visibility = "visible";
-    hintText.style.visibility = "hidden";
-    translateText.style.visibility = "hidden";
-    hintButton.disabled = true;
-    translateButton.disabled = true;
-    //currentQuote.style.visibility = "hidden";
+{
+language = document.getElementById("redlanglist").value;
+console.log(language);
+quoteText.style.visibility = "hidden"; 
+hintText.style.visibility = "hidden";
+translateText.style.visibility = "hidden";
+hintButton.disabled = true;
+translateButton.disabled = true;
+//currentQuote.style.visibility = "hidden";
 }
+
 
 let niz = [
     {bs: "Neispisana tablica.", 
