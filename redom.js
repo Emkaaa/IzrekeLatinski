@@ -13,11 +13,17 @@ function getLanguage()
 {   language = document.getElementById("redlanglist").value;
     console.log(language);
     quoteText.style.visibility = "hidden"; 
+    if (language == "LtoB")
+    {quoteText = niz[currentIndex].lat;}
+    else if (language == "BtoL")
+    {quoteText = niz[currentIndex].bs;}
+    
+    quoteText.style.visibility = "visible";
     hintText.style.visibility = "hidden";
     translateText.style.visibility = "hidden";
     hintButton.disabled = true;
     translateButton.disabled = true;
-    currentQuote.style.visibility = "hidden";
+    //currentQuote.style.visibility = "hidden";
 }
 
 let niz = [
@@ -101,28 +107,28 @@ let niz = [
     },
     {bs:"Što škodi, često uči.",
     lat:"Quae nocent, saepe docent.",
-    hint1:"",
-    hint2:""
+    hint1:"Škodi, uči.",
+    hint2:"Nocent, docent."
     },
     {bs:"Pravi se prijatelj poznaje u nevolji.",
     lat:"Amicus certus in re incerta cernitur.",
-    hint1:"",
-    hint2:""
+    hint1:"Prijatelj, nevolja.",
+    hint2:"Amicus, incerta."
     },
     {bs:"Ni Herkul (ne može) protiv dvojice.",
     lat:"Nec Hercules contra duos.",
-    hint1:"",
-    hint2:""
+    hint1:"Herkul, protiv.",
+    hint2:"Hercules, contra."
     },
     {bs:"Pravičnost je od svega zlata skupocjenija.",
     lat:"Iustitia omnia auro carior.",
-    hint1:"",
-    hint2:""
+    hint1:"Pravičnost, zlata.",
+    hint2:"Iustitia, auro."
     },
     {bs:"Krhka je slava bogatstva i ljepote.",
     lat:"Divitiarum et formae gloria fluxa est.",
-    hint1:"",
-    hint2:""
+    hint1:"Krhka, bogatstva.",
+    hint2:"Divitarum, fluxa."
     },
     {bs:"Nijedno pravilo bez izuzetka.",
     lat:"Nulla regula sine exceptione.",
