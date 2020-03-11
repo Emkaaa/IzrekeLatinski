@@ -20,7 +20,6 @@ hintText.style.visibility = "hidden";
 translateText.style.visibility = "hidden";
 hintButton.disabled = true;
 translateButton.disabled = true;
-//currentQuote.style.visibility = "hidden";
 }
 
 
@@ -176,7 +175,7 @@ let niz = [
     {bs:"Što je plamen sjajniji, to se brže gasi.",
     lat:"Ignis quo clarior fulsit citius extinguitur.",
     hint1:"Plamen, sjajniji, gasi.",
-    hint2:"Ignis, "
+    hint2:"Ignis, clarior, extinguitur."
     },
     
     {bs:"Što je trijeznom na srcu, to je pijanom na jeziku.",
@@ -602,7 +601,7 @@ let niz = [
     
     {bs:"Tvrd je zakon ali je zakon.",
     lat:"Dura lex sed lex.",
-    hint1:"",
+    hint1:" ",
     hint2:""
     }
 ];
@@ -648,11 +647,10 @@ function prevQuote() {
 
     currentQuote.innerHTML = currentIndex+1;
 
-if (language == "BtoL")
+    if (language == "BtoL")
     {hintText.innerHTML = niz[currentIndex].hint2;
     translateText.innerHTML = niz[currentIndex].lat;
     quoteText.innerHTML = niz[currentIndex].bs;}
-
     if (language == "LtoB")
     {quoteText.innerHTML = niz[currentIndex].lat;
     hintText.innerHTML = niz[currentIndex].hint1;
@@ -673,5 +671,6 @@ function showHint() {
 
 function showTranslate() {
     translateText.style.visibility = "visible";}
+  
 
 
